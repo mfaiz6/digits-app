@@ -1,5 +1,6 @@
 import './App.css';
 import Cta from './components/cta/Cta';
+import Footer from './components/footer/Footer';
 import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
 import Partners from './components/partners/Partners';
@@ -17,6 +18,7 @@ function App() {
       <Portfolio />
       <Testimonials />
       <Cta />
+      <Footer />
     </div>
   );
 }
