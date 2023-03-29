@@ -1,0 +1,92 @@
+.navbarContainer {
+    height: 80px;
+    display: flex;
+    padding: 1.5rem;
+    align-items: center;
+    align-content: center;
+}
+
+.navLogo {
+    flex: 1;
+}
+
+.navLogo>img {
+    margin-left: 26%;
+    cursor: pointer;
+    
+}
+
+.navLinks {
+    flex: 2;
+}
+
+.navLinks>ul {
+    display: flex;
+    gap: 3rem;
+}
+
+.navLinks>ul {
+    list-style: none;
+}
+
+.navLinks>ul>li {
+    color: #1E266D;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+
+.navContact {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    margin-right: 6rem;
+}
+
+.navCall>h2 {
+    color: #1E266D;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.navButton>button {
+    width: 113px;
+    border-radius: 100px;
+    height: 40px;
+    background-color: #3751FF;
+    border: none;
+    color: #ffffff;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+@media (max-width: 1226px) {
+    .navLinks>ul {
+        display: flex;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 1096px) {
+    .navLinks {
+        display: none;
+    }
+}
+
+@media (max-width: 678px) {
+    .navContact {
+        gap: 1rem;
+        margin-right:0;
+    }
+}
+
+
+@media (max-width: 478px) {
+    .navCall>h2 {
+        display: none;
+    }
+}
