@@ -1,0 +1,75 @@
+.ctaContainer {
+    background-color: rgba(55, 81, 255, 1);
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8rem;
+}
+
+.ctaText>h2 {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+.ctaAction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 100px;
+}
+
+.ctaAction>button {
+    color: rgba(69, 88, 128, 1);
+    background-color: rgba(255, 255, 255, 1);
+    width: 245.28px;
+    height: 56px;
+    border-radius: 100px;
+    color: rgba(69, 88, 128, 1);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19.8px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.ctaAction>p {
+    color: rgba(223, 224, 235, 1);
+    font-weight: 400;
+}
+
+.dYellow {
+    color: rgba(254, 211, 133, 1);
+    cursor: pointer;
+}
+
+@media (max-width: 1094px) {
+    .ctaText>h2 {
+        font-size: 28px;
+        line-height: normal;
+        margin-left: 0px;
+        text-align: center;
+
+    }
+
+    .ctaContainer {
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        gap: 2rem;
+    }
+
+    .ctaAction {
+        margin-right: 0;
+    }
+
+    .ctaAction>p {
+        font-size: 12px;
+    }
+
+}
