@@ -13,7 +13,7 @@ const Hero = () => {
 
         <div className="heroButtons">
         <button><Link to="/register">Register</Link></button>
-            <button>Sign in</button>
+        <button><Link to="/login">Sign in</Link></button>
         </div>
 
         <div className="heroImage">

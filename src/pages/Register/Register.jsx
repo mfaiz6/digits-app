@@ -5,20 +5,23 @@ import callLogo from '../../assets/phone.png'
 import emailLogo from '../../assets/email.png'
 import usernameLogo from '../../assets/username.png'
 import passwordLock from '../../assets/passwordLock.png'
+import { Link } from 'react-router-dom'
 
 const Register = () => {
   return (
     <div className='registerContainer'>
 
       <div className="logoContainer">
-        <img src={logo} alt="logo" />
+        <Link to="/">
+          <img src={logo} alt="logo" />
+        </Link>
       </div>
 
       <div className="registerForm">
 
         <div className="registerFormHead">
           <h2>Sign Up</h2>
-          <p>If you already have an account registered <br /> You can <span>Login here!</span></p>
+          <p>If you already have an account registered <br /> You can <span><Link to="/login">Login here!</Link></span></p>
         </div>
 
         <div className="registerFormDetails">
