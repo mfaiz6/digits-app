@@ -1,6 +1,6 @@
 # Digits Web App
 
-This project is built for the purpose of an
+This project is built for the purpose of an assignment.
 
 ## Step 1
 
