@@ -1,6 +1,6 @@
 # Digits Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is built for the purpose of an
 
 ## Step 1
 
