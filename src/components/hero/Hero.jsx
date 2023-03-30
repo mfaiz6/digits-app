@@ -1,5 +1,6 @@
 import './hero.css'
 import heroImage from '../../assets/heroGraphic.png'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -11,8 +12,8 @@ const Hero = () => {
         </div>
 
         <div className="heroButtons">
-            <button>Buy Digits</button>
-            <button>See the features</button>
+        <button><Link to="/register">Register</Link></button>
+            <button>Sign in</button>
         </div>
 
         <div className="heroImage">

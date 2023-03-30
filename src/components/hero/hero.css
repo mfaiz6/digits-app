@@ -24,6 +24,11 @@
     color: #455880;
 }
 
+.heroButtons {
+    display: flex;
+    gap: 1rem;
+}
+
 .heroButtons>button {
     height: 50px;
     width: 148.06px;
@@ -31,17 +36,21 @@
     border: none;
 }
 
+
+
 .heroButtons button:first-child {
     color: #ffffff;
     background-color: #3751FF;
     cursor: pointer;
+    font-weight: 400;
 }
 
 .heroButtons button:last-child {
-    color: #455880;
+    color: rgba(69, 88, 128, 1);
     background-color: #ffffff;
     box-shadow: 0px 2px 4px 0px #0000000D;
     cursor: pointer;
+    font-weight: 400;
 }
 
 .heroImage>img {

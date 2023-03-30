@@ -4,6 +4,12 @@
     padding: 1.5rem;
     align-items: center;
     align-content: center;
+
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 999;
+    
 }
 
 .navLogo {

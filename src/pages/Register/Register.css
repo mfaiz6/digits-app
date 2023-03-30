@@ -1,0 +1,199 @@
+.registerContainer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2rem;
+}
+
+.logoContainer {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+}
+
+.logoContainer>img {
+    width: 100px;
+}
+
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.registerFormHead {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.registerFormHead>h2 {
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.registerFormHead>p {
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.registerFormHead>p>span {
+    font-weight: 600;
+    color: rgba(12, 33, 193, 1);
+    cursor: pointer;
+}
+
+.registerFormDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.registerFormInput {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.formInputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.3rem;
+    position: relative;
+}
+
+.formInputContainer>label {
+    font-size: 13px;
+    color: rgba(153, 153, 153, 1);
+    line-height: 19.5px;
+    font-weight: 500;
+}
+
+.formInputContainer>img {
+    position: absolute;
+    top: 1.2rem;
+}
+
+.formInputContainer>input {
+    border: 0;
+    width: 429px;
+    border-bottom: 2px solid rgba(153, 153, 153, 1);
+    padding: 0.2rem;
+    outline: none;
+}
+
+.formInputContainer>input:focus {
+    border-bottom: 2px solid rgba(0, 8, 66, 1);
+}
+
+.formInputContainer>input::placeholder {
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(0, 8, 66, 1);
+    font-size: 16px;
+}
+
+.registerButton>button {
+    background-color: rgba(12, 33, 193, 1);
+    width: 429px;
+    height: 53px;
+    border-radius: 32px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 25.5px;
+    font-weight: 500;
+}
+
+.registerBanner {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 8, 66, 1);
+    border-radius: 15px;
+}
+
+.registerContact {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.registerContact>img {
+    width: 13.97px;
+    height: 14px;
+}
+
+.registerContact>h4 {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+}
+
+.registerBanner {
+    width: 500px;
+    height: 600px;
+    position: relative;
+}
+
+.registerBanner>img {
+    width: 70%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.registerText {
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 1rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 1rem;
+}
+
+.registerText>h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.registerText>p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+@media (max-width: 986px) {
+    .registerBanner {
+        display: none;
+    }
+
+    .registerContainer {
+        margin-top: 1rem;
+    justify-content: center;
+
+    }
+
+    .formInputContainer>input{ 
+        width: 300px;
+    }
+
+    .registerButton>button {
+        width: 300px;
+    }
+
+}
